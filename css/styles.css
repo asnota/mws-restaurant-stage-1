@@ -273,7 +273,7 @@ nav h1 a {
   color: #666;
 }
 
-//===========================Home page responsiveness===================================
+//===========================Responsiveness===================================
 
 @media screen and(max-width:450px){
 	.container{
@@ -285,8 +285,26 @@ nav h1 a {
 	}
 }
 
-@media screen and (min-width:451px){
+@media screen and (min-width:451px) {
 	.container{
 		margin:30px 15px 60px;
 	}
+}
+
+@media screen and (min-width: 781px) and (max-width:1000){
+  #restaurants-list li {
+    width: calc(33.3333% - 30px);
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width:1400) {
+  #restaurants-list li {
+    width: calc(25% - 30px);
+  }
+}
+
+@media screen and (min-width: 1401px) {
+  #restaurants-list li {
+    width: calc(20% - 30px);
+  }
 }
