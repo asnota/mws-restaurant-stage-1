@@ -8,6 +8,8 @@ self.addEventListener('install', function(event) {
         caches.open(staticCacheName).then(function(cache) {
             return cache.addAll([
                 '/',
+                '/index.html',
+                '/restaurant.html',
                 '/css/styles.css',
                 '/data/restaurants.json',
                 '/img/',
