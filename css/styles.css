@@ -273,3 +273,21 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+//===========================Media queries===================================
+
+@media screen and(max-width:450px){
+	.container{
+		margin: 30px 5px 60px;
+	}
+
+	.filter-options select{
+		margin: 10px 5px;
+	}
+}
+
+@media screen and (min-width:451px){
+	.container{
+		margin:30px 15px 60px;
+	}
+}
