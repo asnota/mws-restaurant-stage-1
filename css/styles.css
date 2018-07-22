@@ -149,7 +149,7 @@ nav h1 a {
 #restaurants-list .restaurant-img {
   background-color: #ccc;
   display: block;
-  margin: 10;
+  margin: 0;
   max-width: 100%;
   min-width: 100%;
 }
@@ -273,7 +273,7 @@ nav h1 a {
   color: #666;
 }
 
-//===========================Media queries===================================
+//===========================Home page responsiveness===================================
 
 @media screen and(max-width:450px){
 	.container{
