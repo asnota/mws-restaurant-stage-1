@@ -199,17 +199,36 @@ nav h1 a {
 	z-index: 1000;
 }
 .inside #map-container {
-	background: blue none repeat scroll 0 0;
 	position: relative;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
 }
+
 .inside #map {
-	background-color: #ccc;
-	height: 100%;
+	display: inline-block;
+  margin: 0;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+#image-container{
+	margin: 0 auto;
+	text-align: center;
+  height: auto;
 	width: 50%;
 }
+
+#restaurant-img {
+	display: inline-block;
+	margin: 0;
+  max-width: 100%;
+  min-width: 100%;
+}
+
 .inside #footer {
 	bottom: 0;
 	position: fixed;
@@ -224,11 +243,6 @@ nav h1 a {
 	margin: 15px 0 30px;
 	text-transform: uppercase;
 	line-height: 1.1;
-}
-#restaurant-img {
-	height: 100%;
-	width: calc(50% - 26px);
-	border-radius: 13px 0 13px 0;
 }
 #restaurant-address {
 	font-size: 12pt;
@@ -265,7 +279,7 @@ nav h1 a {
 #reviews-list li, #reviewForm {
 	background-color: #fff;
 	display: flex;
-	flex-wrap:wrap;
+	flex-wrap: wrap;
 	list-style-type: none;
 	margin: 0 0 30px;
 	overflow: hidden;
@@ -323,47 +337,10 @@ nav h1 a {
   }
 }
 
-@media screen and (max-width: 801px) {
-	#restaurants-list li {
-		float: inherit;
+@media screen and (max-width: 801px){
+	#image-container{
+		float: center;
+	  height: auto;
 		width: 100%;
 	}
-  /* Restaurant Detail Page for mobile */
-  #breadcrumb {
-    width: 100%;
-    padding: 10px 5px 16px;
-  }
-
-  .inside #map-container {
-    display: inline-flex;
-		height: 300px;
-		top: 300px;
-    width: 100%;
-  }
-
-	.inside #map-container {
-	 height: 400px;
-	 position: relative;
-	 top: 121px;
-	 width: 100%;
- }
-
- #restaurant-container, #reviews-container {
-	 width: 100%;
-	 padding: 0;
-	 margin: 10px 0 10px;
-	 position: relative;
-	 top: 121px;
-}
-
-  #reviews-list li {
-    padding: 0;
-  }
-
-	.inside #footer {
-    position: relative;
-    width: 100%;
-    top: 121px;
-    padding: 25px 0 25px;
-  }
 }
