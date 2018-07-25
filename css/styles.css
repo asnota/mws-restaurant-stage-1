@@ -75,10 +75,10 @@ nav h1 a {
 #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
-    background-color: #eee;
+    background-color: black;
     font-size: 17px;
     margin: 0;
-    width: calc(50% - 80px);
+    width: calc(100% - 20px);
 }
 
 /* Display list items side by side */
@@ -107,7 +107,7 @@ nav h1 a {
 /* ====================== Map ====================== */
 #map {
   height: 400px;
-  width: 100%;
+	width: 100%;
   background-color: #ccc;
 }
 /* ====================== Restaurant Filtering ====================== */
@@ -149,7 +149,7 @@ nav h1 a {
 	margin-left: 15px;
 	margin-right: 15px;
 	float: center;
-	width: calc(50% - 20px);
+	width: calc(50% - 36px);
 	text-align: left;
 	background-color: #fff;
   border: 3px solid #ccc;
@@ -201,17 +201,19 @@ nav h1 a {
 .inside #map-container {
 	background: blue none repeat scroll 0 0;
 	position: relative;
-	width: calc(50% - 1em);
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
 }
 .inside #map {
 	background-color: #ccc;
 	height: 100%;
-	width: 100%;
+	width: 50%;
 }
 .inside #footer {
 	bottom: 0;
-	position: absolute;
-	width: calc(50% - 50px);
+	position: fixed;
+	width: 100%;
 }
 #restaurant-name {
 	color: #6b3b04;
@@ -224,7 +226,8 @@ nav h1 a {
 	line-height: 1.1;
 }
 #restaurant-img {
-	width: 100%;
+	height: 100%;
+	width: calc(50% - 26px);
 	border-radius: 13px 0 13px 0;
 }
 #restaurant-address {
@@ -316,7 +319,7 @@ nav h1 a {
 @media screen and (min-width: 1301px) {
   #restaurants-list li {
 		float: inherit;
-		width: calc(25% - 30px);
+		width: calc(33.3333% - 30px);
   }
 }
 
