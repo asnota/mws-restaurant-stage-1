@@ -161,6 +161,11 @@ createReviewHTML = (review) => {
   comments.setAttribute('tabindex', 0);
   li.appendChild(comments);
 
+  const empty = document.createElement('p');
+  empty.innerHTML = "  ";
+  empty.setAttribute('tabindex', 0);
+  li.appendChild(empty);
+
   return li;
 }
 
