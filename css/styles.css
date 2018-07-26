@@ -75,7 +75,7 @@ nav h1 a {
   text-transform: uppercase;
 }
 #breadcrumb {
-    padding: 10px 40px 16px;
+    padding: 10px 10px 10px 10px;
     list-style: none;
     background-color: black;
     font-size: 17px;
@@ -227,14 +227,6 @@ nav h1 a {
   max-width: 100%;
   min-width: 100%;
 }
-
-#restaurant-container{
-	background-color: #f3f3f3;
-	text-align: center;
-	max-width: 1000px;
-	margin: auto;
-}
-
 .inside #footer {
 	bottom: 0;
 	top: inherit;
@@ -268,11 +260,19 @@ nav h1 a {
 	width: 100%;
 	border-radius: 13px 0 13px 0;
 }
-#restaurant-container, #reviews-container {
+
+#reviews-container {
 	max-width: 1000px;
 	margin: auto;
 	width: calc(100% - 1em);
 }
+#restaurant-container{
+	background-color: #f3f3f3;
+	text-align: left;
+	max-width: 1000px;
+	margin: auto;
+}
+
 #restaurant-hours {
 	width: 100%;
 	overflow-x: auto;
