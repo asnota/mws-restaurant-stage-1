@@ -21,7 +21,9 @@ The application helps the user to find a restaurant in the neighborhoods, shows 
 
 ## Instructions
 
-User opens the application and sets the corresponding filters (town and food type). The filter results are displayed just after the filter set, displaying a list of restaurants with an image, name and address. The restaurant card contains the interactive button to view details. When this button is pressed, the application shows opening hours and reviews. The application also contains an interactive map, which shows the location of the restaurant. 
+User opens the application and sets the corresponding filters (town and food type). The filter results are displayed just after the filter set, displaying a list of restaurants with an image, name and address. The restaurant card contains the interactive button to view details. When this button is pressed, the application shows opening hours and reviews. The application also contains an interactive map, which shows the location of the restaurant.
+
+In order to install the application, please download a zip or clone it via Git and store it to your local directory. Then use a local web server (for example Web Server for Chrome "200 OK!", which can be installed as Chrome browser extension) to listen to the port 8887. In order to change the port, enter dbhelper.js file (line 11) and manually set your port of preference.
 
 ## Contributing
 
